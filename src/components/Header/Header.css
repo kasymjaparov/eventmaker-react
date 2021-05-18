@@ -1,0 +1,142 @@
+.header {
+	height: 85px;
+	background: #333;
+	box-shadow: 0 0 8px 0 #7e7b7b;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+.header .container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* .header_search{
+	position: relative;
+}
+
+.header_search .fas{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.header_search_input{
+	height: 24px;
+	border-radius: 10px;
+	padding:0 10px;
+	background-color:#f1f3f5;
+	border-color: #f1f3f5;
+} */
+
+.header_logo {
+	font-size: 30px;
+	font-weight: 700;
+	word-spacing: 5px;
+	color: rgb(255, 255, 255);
+}
+.header_logo:hover{
+	color: white;
+}
+.header_btn {
+	color: rgb(255, 255, 255);
+	padding: 9px 19px 9px 12px;
+	border: 1px solid rgb(255, 255, 255);
+	cursor: pointer;
+	margin-left: 10px;
+}
+.header_btn i {
+	margin-right: 5px;
+}
+.header_logo span {
+	color: #fc0;
+}
+
+.header_nav_a {
+	font-size: 18px;
+	color: #fff;
+	position: relative;
+	margin-right: 20px;
+	transition: all 0.4s ease;
+}
+.header_nav_a-active{
+	color: #fc0;
+}
+.header_nav a:hover {
+	color: #fc0;
+}
+.header_nav a::after {
+	content: '';
+	height: 25px;
+	width: 1px;
+	bottom: 15px;
+	right: -10px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	border-right: 1px dotted #fff;
+}
+.header_nav a:nth-child(6):after {
+	display: none;
+}
+.burger {
+	display: none;
+	cursor: pointer;
+	width: 31px;
+}
+.burger div {
+	border-radius: 2px;
+	height: 3px;
+	background: rgb(255, 255, 255);
+	margin-top: 5px;
+	transition: 0.3s all ease;
+}
+.burgerOpen div:nth-of-type(2) {
+	opacity: 0;
+}
+.burgerOpen div:first-of-type {
+	transform: rotate(45deg);
+	margin-bottom: -16px;
+}
+.burgerOpen div:nth-of-type(3) {
+	transform: rotate(-45deg);
+}
+@media all and (max-width: 1015px) {
+	.burger {
+		display: block;
+	}
+	.header .container {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+	}
+	.header_nav {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-around;
+		position: absolute;
+		top: 85px;
+		left: -1000px;
+		width: 320px;
+		height: calc(100vh - 85px);
+		background: #fc0;
+		transition: 0.3s all ease-out;
+	}
+	.header_nav-open {
+		position: absolute;
+		top: 85px;
+		left: 0;
+	}
+	.header_nav a {
+		color: rgb(0, 0, 0);
+	}
+	.header_nav a::after {
+		display: none;
+	}
+	.header_nav a:hover {
+		color: black;
+	}
+}

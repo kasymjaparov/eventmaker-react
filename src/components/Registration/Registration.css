@@ -1,0 +1,10 @@
+.successMesssage {
+	color: #4caf50;
+	margin: 10px 0px 0px 0px;
+	line-height: 18px;
+}
+.failedMesssage {
+	color: #d32f2f;
+	margin: 10px 0px 0px 0px;
+	line-height: 18px;
+}

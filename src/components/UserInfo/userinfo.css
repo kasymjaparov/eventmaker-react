@@ -1,0 +1,15 @@
+.userInfo h1{
+    font-size: 28px;
+    margin: 30px 0;
+    text-align: center;
+}
+.userInfo_half_input{
+    width: 45%;
+}
+.userInfo .auth_form:-webkit-autofill {
+	-webkit-text-fill-color: #495057;
+  }
+.userInfo .auth_form {
+	margin-bottom: 10px;
+	color: #495057;
+}

@@ -1,0 +1,25 @@
+.auth > .container {
+	height: 100vh;
+}
+.auth_title {
+	margin-top: 40px;
+	font-weight: 700;
+	font-size: 28px;
+}
+.auth_nav {
+	margin: 21px 0px 35px 0px;
+	display: flex;
+}
+.auth_nav_link {
+	font-size: 22px;
+	color: #393939;
+	font-size: 22px;
+	font-weight: 400;
+}
+.auth_nav_link:nth-child(1){
+    margin-right: 30px;
+}
+.auth_nav_link-active{
+    border-bottom: 2px solid #fc0;
+    padding-bottom: 3px;
+}

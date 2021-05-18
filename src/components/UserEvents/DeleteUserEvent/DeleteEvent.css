@@ -1,0 +1,33 @@
+.delete_event_block {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    background: #333;
+}
+
+.delete_event_block_btns {
+    margin-top: 15px;
+}
+.delete_event_block_question{
+    color: white;
+}
+.delete_event_block_btns_ok {
+    width: 70px;
+    border-radius: 7px;
+    height: 40px;
+    background-color:royalblue;
+}
+.delete_event_block_btns_ok .fas{
+    color: white;
+}
+.delete_event_block_btns_no {
+    margin-left: 10px;
+    width: 70px;
+    height: 40px;
+    border-radius: 7px;
+    background: red
+}
