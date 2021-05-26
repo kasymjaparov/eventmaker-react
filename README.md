@@ -27,7 +27,9 @@ cd auth-api
 npm i
 npm start
 ```
-
+## DEMO
+After running api you can open [DEMO]
 
    [Api]: <https://github.com/Kenan-Aliev/auth-api>
+   [DEMO]:<https://eventmaker-react.vercel.app/>
    
