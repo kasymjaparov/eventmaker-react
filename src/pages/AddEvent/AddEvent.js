@@ -67,7 +67,7 @@ export default function AddEvent() {
                     ))}
                     {localStorage.getItem('google') && (
                         <a
-                            href={'http://localhost:3001/google/logout'}
+                            href={'https://eventmaker-api.herokuapp.com/google/logout'}
                             onClick={() => {
                                 dispatch(googleLogout())
                                 dispatch(setInputValue(''))
