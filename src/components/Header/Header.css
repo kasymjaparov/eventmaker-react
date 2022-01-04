@@ -65,7 +65,7 @@
 .header_nav a:hover {
 	color: #fc0;
 }
-.header_nav a::after {
+/* .header_nav a::after {
 	content: '';
 	height: 25px;
 	width: 1px;
@@ -75,7 +75,7 @@
 	z-index: 1;
 	top: 0px;
 	border-right: 1px dotted #fff;
-}
+} */
 .header_nav a:nth-child(6):after {
 	display: none;
 }
