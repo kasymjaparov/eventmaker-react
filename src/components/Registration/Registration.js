@@ -98,7 +98,7 @@ export default function Registration() {
 							/>
 						</div>
 						{touched.password && errors.password && <div className='inputError'>{errors.password}</div>}
-						<a href={'http://localhost:3001/google/auth'} className={'google_link'}>
+						<a href={'https://eventmaker-api.herokuapp.com/google/auth'} className={'google_link'}>
 							<i className='fab fa-google google_icon'>
 								<span>Sign up with Google</span>
 							</i>
