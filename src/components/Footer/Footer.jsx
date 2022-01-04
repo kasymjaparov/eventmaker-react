@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
             <div className='footer_content_info'>
                 <Container>
-                    <div className="footer_content_info_years">2019-2021, EVENTMAKER - афиша событий</div>
+                    <div className="footer_content_info_years">2020-2022, EVENTMAKER - афиша событий</div>
                     <div className="footer_content_info_social"><i
                         className="fab fa-telegram-plane"/><span>Telegram</span></div>
                 </Container>

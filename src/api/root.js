@@ -1,2 +1,2 @@
-const apiRoot = "http://localhost:3001"
+const apiRoot = "https://eventmaker-api.herokuapp.com"
 export default apiRoot
