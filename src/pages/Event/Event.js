@@ -44,6 +44,7 @@ export default function Event(props) {
 						</div>
 						<div className={'title'}>{event.title}</div>
 						<div className={'description'}>{event.description}</div>
+						<div className={'description'}>{event._message}</div>
 					</Container>
 					<Footer />
 				</div>

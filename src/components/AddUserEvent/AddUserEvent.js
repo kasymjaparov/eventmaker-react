@@ -41,7 +41,6 @@ export default function AddUserEvent() {
 	const onSubmit = (data, { resetForm }) => {
 		resetForm({})
 		data.photos = photos
-		console.log(data)
 	    dispatch(postEvent(data))
 		setPhotos([])
 	}
