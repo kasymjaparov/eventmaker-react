@@ -65,9 +65,7 @@ export default function () {
   const onPaginationChange = (start, end) => {
     setPagination({ start: start, end: end })
   }
-  console.log(allEvents[0].address)
-  console.log(filteredEvents)
-  console.log(searchValue)
+
   return (
     <div className='main'>
       <Header />

@@ -16,7 +16,7 @@ export const auth = (data) => (dispatch) => {
             dispatch({type: constants.REGISTRATION_SUCCESS, payload: data.message})
         })
         .catch((err) => {
-            console.log(err)
+           
             dispatch({type: constants.REGISTRATION_FAILED, payload: err.message})
         })
 }
